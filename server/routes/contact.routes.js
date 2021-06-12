@@ -3,7 +3,7 @@ import contactCtrl from '../controllers/contact.controller'
 import authCtrl from '../controllers/auth.controller'
 //
 const router = express.Router()
-
+//
 router.route('/api/contacts')
   .get(contactCtrl.list)
   .post(contactCtrl.create)
