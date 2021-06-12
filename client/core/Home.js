@@ -40,11 +40,11 @@ export default function Home() {
       <Typography variant='h6' className={classes.title}>
         Home Page
       </Typography>
-      <CardMedia className={classes.media} image='' title='Unicorn Bicycle' />
+      {/* <CardMedia className={classes.media} image='' title='' /> */}
 
       <CardContent>
         <Typography variant='body1' component='p'>
-          Welcome to the MERN contact list, please sigh in or create an account.
+          Welcome to the MERN contact list, please sign in or create an account.
         </Typography>
       </CardContent>
     </Card>
